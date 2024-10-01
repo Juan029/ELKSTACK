@@ -12,3 +12,6 @@ const logger = winston.createLogger({
 })
 
 export default logger
+
+
+// nombre , apellido, documento, timestamp -> funcion js ->

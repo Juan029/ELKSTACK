@@ -6,6 +6,7 @@ const  app = express()
 
 app.get('/',controllers.homeController)
 app.get('/post',controllers.postController)
+app.get('/save', controllers.saveUser)
 
 app.listen(8080,()=>{
     console.log("server is running on port 8080")

@@ -18,6 +18,21 @@ const postController = (req,res) => {
     }
 }
 
-const controllers = { homeController, postController}
+
+const saveUser = (req,res) => {
+    try{
+        logger.info("welcome saveUser page")
+        
+        res.send("Welcome saveUser page")
+    }catch(error){
+        console.log(error)
+    }
+}
+
+//info user and timestamp
+
+
+
+const controllers = { homeController, postController, saveUser}
 
 export default controllers
